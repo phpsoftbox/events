@@ -34,6 +34,10 @@
             "PhpSoftBox\\Events\\Tests\\": "tests/"
         }
     },
+    "suggest": {
+        "phpsoftbox/cli-app": "Required for event:list and make:* commands.",
+        "phpsoftbox/queue": "Required for dispatchLater() and EventQueueJobHandler."
+    },
     "extra": {
         "psb": {
             "providers": [
